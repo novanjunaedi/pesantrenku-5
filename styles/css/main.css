@@ -1,0 +1,160 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  background-color: white;
+}
+#header .nav-item {
+  text-transform: uppercase;
+}
+#header .bg-secondary {
+  background-color: #FC7717 !important;
+}
+
+#main .bg-primary {
+  background-color: #2444A5 !important;
+}
+#main .bg-secondary {
+  background-color: #FC7717 !important;
+}
+#main .bg-warning {
+  background-color: #FFC633 !important;
+}
+#main .bg-light {
+  background-color: #F5F5F5 !important;
+}
+#main .btn {
+  border-radius: 10px;
+}
+#main .btn-primary {
+  border: none;
+  background-color: #2444A5;
+}
+#main .btn-primary:hover {
+  background-color: #2444A5;
+}
+#main .btn-secondary {
+  border: none;
+  background-color: #FC7717;
+}
+#main .bg-secondary:hover {
+  background-color: #FC7717;
+}
+#main .text-primary {
+  color: #2444A5 !important;
+}
+#main .text-secondary {
+  color: #FC7717 !important;
+}
+#main .text-purple {
+  color: #D4478B;
+}
+#main .rounded-1 {
+  border-radius: 5px;
+}
+#main .rounded-2 {
+  border-radius: 10px;
+}
+#main .rounded-3 {
+  border-radius: 15px;
+}
+#main .section-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#main .hero {
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background: linear-gradient(rgba(34, 0, 255, 0.2), rgba(34, 0, 255, 0.2)), url("../../assets/img/hero-img.png") center center no-repeat;
+  background-size: cover;
+}
+#main .floating-counter {
+  position: relative;
+  bottom: 70px;
+}
+#main .img-wrapper {
+  position: relative;
+}
+#main .img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#main .img-overlay:before {
+  content: "";
+  display: block;
+  height: 40%;
+}
+#main .section-program {
+  background: url("../../assets/img/img-program-pesantren.png") center right no-repeat;
+  background-size: 55%;
+}
+@media screen and (max-width: 1000px) {
+  #main .section-program {
+    background: none;
+  }
+}
+#main .section-app {
+  background: url("../../assets/img/bg-app.png") center center no-repeat;
+  background-size: cover;
+}
+#main .section-extracurricular {
+  background: url("../../assets/img/bg-extraculicular.png") center center no-repeat;
+  background-size: cover;
+}
+#main .img-card-testimonial {
+  position: relative;
+  z-index: 100;
+  top: 70px;
+  right: -42%;
+  border: 10px solid white;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+@media screen and (max-width: 1000px) {
+  #main .img-card-testimonial {
+    top: 50px;
+    right: -42%;
+    height: 100px;
+    width: 100px;
+  }
+}
+#main .swiper {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 150px;
+}
+#main .swiper-button-next::after {
+  content: "";
+  margin-right: 100px;
+}
+#main .swiper-button-prev::after {
+  content: "";
+  margin-left: -100px;
+}
+
+#footer {
+  background-color: #FC7717;
+  color: white;
+}
+#footer hr {
+  background-color: white;
+}
+#footer .link {
+  text-decoration: none;
+  color: white;
+}
+#footer .link:hover {
+  text-decoration: underline;
+}
+#footer .text-secondary {
+  color: #FC7717 !important;
+}
+
+/*# sourceMappingURL=main.css.map */
